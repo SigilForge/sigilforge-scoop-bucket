@@ -1,0 +1,25 @@
+{
+  "version": "0.4.0",
+  "description": "Ultra-minimal GPT desktop client with streaming + Plus/WebView mode.",
+  "homepage": "https://github.com/SigilForge/voiddesk",
+  "license": "MIT",
+  "architecture": {
+    "64bit": {
+      "url": "https://github.com/SigilForge/voiddesk/releases/download/v0.4.0/VoidDesk-0.4.0-x64.zip",
+      "hash": "SHA256_GOES_HERE",
+      "extract_dir": "VoidDesk"
+    }
+  },
+  "bin": "VoidDesk.exe",
+  "shortcuts": [
+    ["VoidDesk.exe", "VoidDesk"]
+  ],
+  "checkver": "github",
+  "autoupdate": {
+    "architecture": {
+      "64bit": {
+        "url": "https://github.com/SigilForge/voiddesk/releases/download/v$version/VoidDesk-$version-x64.zip"
+      }
+    }
+  }
+}
