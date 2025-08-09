@@ -6,7 +6,7 @@
   "architecture": {
     "64bit": {
       "url": "https://github.com/SigilForge/voiddesk/releases/download/v0.4.0/VoidDesk-0.4.0-x64.zip",
-      "hash": "SHA256_GOES_HERE",
+      "hash": "SHA256_4AFC1D14CC57E4A2236A1A399F0169FEFCCE8E1C1C5FC5AB990B6275E6B9203B",
       "extract_dir": "VoidDesk"
     }
   },
